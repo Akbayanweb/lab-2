@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <style>
+
+#class{
+
+color:pink;}
+
+</style>
+	<title>Lab 2</title>
+<style> 
+ol.a {list-style-type: decimal-leading-zero;}
+ol.b {list-style-type: square;}
+ol.c {list-style-type: upper-roman;} 
+</style>
+
+          <style type="text/css">
+            .brd {
+                width: fit-content;
+                padding: 10px;
+                background: #f8f9fa;
+                border: 1px solid #a2a9b1;
+            }
+            .brd h4 {
+                text-align: center;
+            }
+            .brd ol, li, dd, dt, ol.a, ol.b, ol.c{
+                line-height: 1.8;
+            }
+        </style>
+</head>
+<body>
+  <h1>Lab 2 (part1)</h1>
+  <p> 1. Block-level element always starts on a new line. 2)soccupy the width and height. 3)always takes up the full width available.<br> 
+      Inline element doesn`t start on a new line. 2)take up the necessary space. 3)only takes up as much width as necessary.  </p>
+  
+<p>Nice to meet you!</p>
+<textarea>Nice to meet you!</textarea>
+
+ <p> 2. Div- block-level element. Span-inline elemet.Div is used as a container, and span is used as a frame for the text. Div-will transfer the text to a new line, and span - lowercase, it is not transferred, but goes into a line.  </p>
+<div style="border: 3px solid blue">Good morning</div>
+<span>Good night</span>
+<p>3.The component model will be applied the same as that of the parent element.
+Therefore, if an element cannot be in the parent element, then it cannot be in the a element nested in the parent element.</p>
+<h3>1var<span style="padding: 9px; background: #970;">span</span></h3>
+<h3>2var <div style="padding: 9px; background: #970;">div</div></h3>
+<p>4.Block elements cannot be nested in inline element, the only exceptions are links and table cells, inside which block elements can be located according to the HTML5 standard. In most cases, it is permissible to put other lowercase elements inside lowercase elements, it is forbidden to insert block elements inside lowercase ones.</p>
+<h2><a href ="https://yandex.kz/">1 var</a></h2>
+<a href ="https://yandex.kz/">2 var</a>
+<p></p>
+<p> 5.  Css comment - /* */ <br>
+        HTML comment - !-- --</p>
+<img src="Сним.PNG" width="500">
+
+<p> 6.  Header 1-defines the most important heading and giant-sized. <br>
+        Header 2-Large.<br>
+        Header 3-Normal-sized.<br>
+        Header 4-Small.<br>
+        Header 5-Very small.<br>
+        Header 6-Tiny. </p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<p>7. Headings are pointers that guide readers through the article. Therefore, they should indicate what is being discussed in the section or paragraph. Otherwise, people won't know what to expect. </p>
+<h1 style="font-size:30px;">Heading 1</h1>
+<img src="1.PNG">
+<p>8. 1)EM-It is used to define emphasized text or statements.<br>
+2)I- It is used to define a text in technical term, alternative mood or voice, a thought, etc.<br>
+By default, the visual result is the same.</p>
+<p>My name is <em>Akbayan</em> </p>
+<p>I am <i>from</i> Kazakhstan</p>
+
+<p>9.1)B-tag makes the content inside it as bold only.<br>
+     2)Strong-make tag makes the content inside it as bold and also tell the web browser that text inside this tag is important.<br> By default, the visual result is the same.</p>
+<b>Hello!</b> <br>
+<strong>Hello!</strong>
+
+<p>10. Semantic elements have meaningful names which tells about type of content. For example header, footer, table, … etc. HTML5 introduces many semantic elements as mentioned below which make the code easier to write and understand for the developer as well as instructs the browser on how to treat them.</p>
+
+<p>11.List HTML5 Semantic Elements. </p>
+<ul>
+  <li>article</li>
+<li>aside</li>
+<li>details</li>
+<li>figcaption</li>
+<li>figure</li>
+<li>footer</li>
+<li>header</li>
+<li>main</li>
+<li>mark</li>
+<li>nav</li>
+<li>section</li>
+<li>summary</li>
+<li>time</li>
+</ul>
+<p><mark>Article</mark> element specifies independent, self-contained content. An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.</p>
+<article>
+<h3>Internet</h3>
+<p>The Internet is the global system of interconnected computer networks.</p>
+</article>
+<p><mark>Aside</mark>-defines a block on the side of the content for placing categories, links to the archive, labels and other information. Such a block is usually called a " sidebar "or"sidebar".</p>
+  <aside>
+   <p>Baibalaevaa</p>
+   <p>Akbayan</p>
+   <p>Erkinovna</p>
+  </aside>
+
+  <p><mark>Details</mark>- is used to store information that can be hidden or shown at the user's request. By default, the tag content is not displayed, the open attribute is used to change the status.</p>
+  <details>funny!</details>
+
+  <p><mark>Figcaption</mark>- must be the first or last element in the group.</p>
+  <figure>
+  <img src="https://i.pinimg.com/originals/d1/d5/37/d1d537dc25d42b824598a30f2aa0427c.jpg" alt="Nature" width="175">
+  <figcaption>Pic1. - Nature, Island.</figcaption>
+</figure>
+<p><mark>Figure</mark>- It is used for grouping any elements, for example, images and captions to them.</p>
+  <figure>
+  <img src="https://porosenka.net/uploads/c/1/c153fcbf8f6f77dbb30cdf9de2dec756.jpg" alt="Beauty" width="175">
+  <figcaption>Pic1. - Beauty, Italy.</figcaption>
+</figure>
+<p><mark>Footer</mark>-element defines a footer for a document or section.</p>
+<footer>
+  <p>Account: Akbayan Baibalaeva</p>
+  <p><a href="mailto:abaibalaeva@bk.ru">abaibalaeva@bk.ru</a></p>
+</footer>
+<p><mark>Header</mark>-element represents a container for introductory content or a set of navigational links.</p>
+<article>
+  <header>
+    <h1>How are you?</h1>
+    <p>Example:</p>
+  </header>
+  <p>All the same.</p>
+</article>
+<p><mark>Main</mark>-it is intended for the main content of the document. The content must be unique and not include standard blocks like the site header, basement, navigation, sidebar, search form, etc.</p>
+  <h1>History of Kazakstan</h1>
+  <main>
+    The Internet is the global system of interconnected computer networks. 
+  </main>
+  <p><mark>Mark</mark>-marks the text as selected. This text is no different from the usual one, but its appearance can be changed using styles.</p>
+  <p>Hello! My name is <mark>Akbayan</mark></p>
+  <p><mark>Nav</mark>-sets the navigation on the site. If there are several blocks of links on a page, then priority links are usually placed in nav.</p>
+  <nav><a href="https://www.youtube.com/">Youtube</a> | <a href="https://vk.com/feed">VK</a> |
+       <a href="https://yandex.kz/">Yandex</a></a></nav>
+
+       <p><mark>Section</mark>-sets the section of the document, can be used for the news block, contact information, text chapters, tabs in the dialog box, etc. The section usually contains a title.</p>
+   <section>
+   <h1>Internet 1</h1>
+   <p>The Internet is the global system of interconnected computer networks.</p>
+  </section>
+     <section>
+   <h1>Internet 2</h1>
+   <p>The Internet is the global system of interconnected computer networks.</p>
+  </section>
+  <p><mark>Summary</mark>-Defines a visible heading for a details element</p>
+ <details>
+  <summary>Internet</summary>
+  <p>The Internet is the global system of interconnected computer networks.</p>
+</details>
+<p><mark>Time</mark>-tag defines a specific time (or datetime)</p>
+<p>Start time <time>13:00</time> to <time>17:00</time> every day.</p>
+
+<p>I have an exam on <time exam="2021-09-20 10:00">Session day</time>.</p>
+
+<p>12.Structure of HTML5 Semantic </p>
+<table border="2">
+  <tr>
+    <td>Header</td>
+  </tr>
+  <tr>
+    <td>nav</td>
+  </tr>
+  <tr>
+    <td>section</td>
+    <td rowspan="2">aside</td>
+  </tr>
+  <tr>
+    <td>article</td>
+  </tr>
+  <tr>
+    <td>footer</td>
+  </tr>
+</table>
+
+<p>13.<mark>Head-defines the information about the article such as including meta data,title,links & scripts. It doesn't have a visual appearance.<br>
+ Header-defines a header for a document or a section. It is added in HTML5. It has a visual appearance, it will be useful to show in the header a logo, menu, and other heading details. It needs to be defined inside the body.</mark></p>
+  <head>
+    <meta charset="utf-8">
+        <title>Ganesamoorthi M</title>
+        <meta name="account" content="Ganesamoorthi M">
+        <meta name="description" content="Head vs Header">
+        <meta name="password" content="Aktau2021">
+  </head>
+  <body>
+    <header>
+        <h1>Baibalaeva A - IT Developer</h1>
+    </header>
+    <img src="12.PNG" width="500">
+    <p><mark>The Header 1> to Header 6 HTML elements represent six levels of section headings. Header 1 is the highest section level and Header 6 is the lowest</mark></p>
+<h1>Flower</h1>
+<h2>Flower</h2>
+<h3>Flower</h3>
+<h4>Flower</h4>
+<h5>Flower</h5>
+<h6>Flower</h6>
+<img src="11.PNG" width="500">
+
+<p>14.OL, Li</p>
+<ol>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ol>
+<div style="display: flex">
+<p>15.3 lines</p> 
+<div class="brd">
+<ol reversed>
+  <li>KazNPU</li>
+  <li>KazNu</li>
+  <li>SDU</li>
+  <li>KBTU</li>
+  <li>IITU</li> </ol>
+  </div> <tbody>
+<div class="brd">
+  <ol >
+  <li>apple</li></ol>
+  <ol start="5">
+  <li>cherry</li>
+  <li>grape</li>
+  </ol>
+  </div></tbody>
+<div class="brd">
+  <ol >
+  <li>Walk the dog</li>
+  <li>Fold laundry</li>
+  <li>Go to the grocery and buy:</li></ol>
+  <ul>
+    <li>Milk</li>
+    <li>Bread</li>
+    <li>Cheese</li>
+    <li>Tomato</li> </ul>
+  <ol start="4">
+  <li>Call the mom</li>
+  <li>Make dinner</li>
+  </ol>
+  </div> </div>
+ <p>16.<br>
+  1)Decimal-leading-zero<br> 2)Square<br>3)Upper-roman</p>
+
+  <div class="brd">
+  <ol class="a">
+  <li>Milk</li>
+  <li>Tea</li>
+  <li>Coffee</li> </ol> 
+</div>
+
+  <div class="brd"> 
+  <ol class="b">
+  <li>Milk</li>
+  <li>Tea</li>
+  <li>Coffee</li> </ol> 
+</div>
+   
+  <div class="brd">
+    <ol class="c">
+  <li>Milk</li>
+  <li>Tea</li>
+  <li>Coffee</li> </ol> 
+</div>
+ 
+
+ <p>17.JPG-this is an image format that uses lossy compression and does not support transparency.<bk>
+  PNG-This is an image format that works with full-color images, uses lossless compression and allows you to maintain transparency.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/135IMG.jpg" width="500">
+  <img src="http://cdn.onlinewebfonts.com/svg/img_167183.png" width="500">
+
+<p>18. 1) Width=400, height=300.<br> 2) Width=500, height=400.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/135IMG.jpg" width="400"height="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/135IMG.jpg" width="500" height="400">
+
+<p>19. ID-In the document code, each identifier is unique and should be included only once.The identifier name is case-sensitive.Using the getElementById method, you can access an element by its ID and change the properties of the element.<br>Class-Classes can be used repeatedly in the code. Class names are case-sensitive. </p>
+<div id="class">link 1</div>
+<div id="class">link 2</div>
+</div> </div>
+<p>20.Div</p>
+<div class="brd">
+  <ol><li>For help DIV, I can open it</li></ol>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
